@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:catCoding.start"
+		"onCommand:v2ex.start"
 	],
 	"repository": {
 		"type": "git",
@@ -20,9 +20,9 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "catCoding.start",
-				"title": "Start cat coding session",
-				"category": "Cat Coding"
+				"command": "v2ex.start",
+				"title": "Start v2ex preview session",
+				"category": "V2EX Preview"
 			}
 		]
 	},
