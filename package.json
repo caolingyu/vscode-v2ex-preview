@@ -1,7 +1,7 @@
 {
 	"name": "vscode-v2ex-preview",
 	"description": "vscode-v2ex-preview",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "lingyu",
 	"engines": {
 		"vscode": "^1.38.0"
