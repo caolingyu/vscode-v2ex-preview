@@ -8,11 +8,11 @@ export function activate(context: vscode.ExtensionContext) {
 //   v2ex.register(context, "v2ex");
 
   context.subscriptions.push(
-    vscode.commands.registerCommand('catCoding.start', () => {
+    vscode.commands.registerCommand('v2ex.start', () => {
       // Create and show panel
       const panel = vscode.window.createWebviewPanel(
-        'catCoding',
-        'Cat Coding',
+        'v2ex',
+        'v2ex preview',
         vscode.ViewColumn.One,
         {}
       );
@@ -48,7 +48,7 @@ function getWebviewContent() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Coding</title>
+    <title>v2ex preview</title>
 </head>
 <body>
     <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" />
